@@ -29,6 +29,8 @@ public class Main {
             LocalDate.of(1980, Month.MARCH, 29),
             "FATEC Pompéia",
             "12312314000123");
+        Pessoa p1 = pf;
+        System.out.println(p1.exibirInformacoes());
         System.out.println(pf.exibirInformacoes());
         System.out.println(pj.exibirInformacoes());
     }
